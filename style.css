@@ -1,0 +1,56 @@
+circle {
+  stroke: yellow; 
+  stroke-width: 5px;
+  stroke-opacity: 1;
+}
+
+.pulse {
+  fill: rgba(0,0,255,1);
+  fill-opacity: 0;
+  animation-duration: 8s;
+  animation-name: pulse;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  from {
+    stroke-width: 0;
+    stroke-opacity: 1;
+  }
+  to {
+    stroke-width: 1;
+    stroke-opacity: 1;
+  }
+}
+
+/* svg { */
+  /* width: 1100; */
+  /* height: 1100; */
+  /* display: block; */
+  /* position: absolute; */
+/* } */
+
+/* .circle { */
+	/* stroke: red; */
+	/* stroke-width: 1px; */
+	/* stroke-opacity: 1; */
+/* } */
+
+/* .pulse { */
+	/* fill: rgba(0,0,0,1); */
+	/* fill-opacity: 0; */
+	/* animation-duration: 2s; */
+	/* animation-name: pulse; */
+	/* animation-interation-count: infinite; */
+/* } */
+
+/* @keyframes pulse { */
+	/* from { */
+		/* stroke-width: 0; */
+		/* stroke-opacity:1; */
+	/* } */
+	/* to { */
+		/* stroke-width: 1; */
+		/* stroke-opacity:1; */
+	/* } */
+/* } */
