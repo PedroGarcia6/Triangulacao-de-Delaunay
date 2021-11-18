@@ -1,3 +1,7 @@
+body {
+	background-color: beige;
+}
+
 circle {
   stroke: yellow; 
   stroke-width: 5px;
