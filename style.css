@@ -2,6 +2,14 @@ body {
 	background-color: beige;
 }
 
+h1 {
+	color: gold;
+}
+
+h2 {
+	color: orange;
+}
+
 circle {
   stroke: yellow; 
   stroke-width: 5px;
